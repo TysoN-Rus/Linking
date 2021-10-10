@@ -1,0 +1,115 @@
+{
+    "name": "InputControll",
+    "maps": [
+        {
+            "name": "KeyboardMouse",
+            "id": "866cc1cf-7458-43a7-915a-1a20fabaedae",
+            "actions": [
+                {
+                    "name": "Down",
+                    "type": "Button",
+                    "id": "6d53419b-1969-458f-a7c2-dbcdd0733fd0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "PositionMouse",
+                    "type": "PassThrough",
+                    "id": "6eae9c9b-2840-4f96-9371-9eb9b7197a40",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": ""
+                },
+                {
+                    "name": "WASD",
+                    "type": "PassThrough",
+                    "id": "0409e86d-6b8c-44d5-843e-eb17d84283ac",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": ""
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "e55d18e4-9e84-4642-a9f3-8d7dca2fed0b",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "Press",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Down",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4f2b9909-fee7-4f71-ae5d-e51cdf6af0ea",
+                    "path": "<Pointer>/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PositionMouse",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "2D Vector",
+                    "id": "c74ca67e-d187-4565-8121-cc0c0e117394",
+                    "path": "2DVector",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WASD",
+                    "isComposite": true,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "up",
+                    "id": "d7bd56e2-038f-48b8-baf2-cd9832af6a3d",
+                    "path": "<Keyboard>/w",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WASD",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "down",
+                    "id": "24fafa23-79cb-498d-8879-e36ab770a594",
+                    "path": "<Keyboard>/s",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WASD",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "left",
+                    "id": "fc6b0cb5-3106-47f1-82d1-cf9fd24fa9b3",
+                    "path": "<Keyboard>/a",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WASD",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                },
+                {
+                    "name": "right",
+                    "id": "044678b2-ebb4-4c71-9c5a-5ba52b24b50f",
+                    "path": "<Keyboard>/d",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "WASD",
+                    "isComposite": false,
+                    "isPartOfComposite": true
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
